@@ -10,8 +10,9 @@ body {
     font-size: 20px;
     margin-bottom: 1.5rem;
   }
+
   p:hover {
-    opacity: 70%;
+    opacity: 80%;
   }
 
   a { text-decoration: none; }
@@ -21,9 +22,21 @@ body {
       margin: 10px;
   }
 
-  .center {
+  li:hover {
+    opacity: 50%;
+  }
+
+  .sheep {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+  }
+  .sheep:hover {
+    opacity: 80%
+  }
+  .ytan {
+    height: 150px;
+    width: 200px;
+    border-radius: 5%;
   }
